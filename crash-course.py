@@ -80,3 +80,60 @@ print(math.sqrt(14))
 print(math.ceil(3.65))
 print(math.floor(8.94))
 print(math.pow(2, 4))
+
+
+# conditionals
+
+# if elif else
+
+t = True
+f = False
+
+if f:
+    print("reached the first condition")
+elif t:
+    print("reached second condition")
+else:
+    print("Reached else")
+
+if 2 > 1 and 2 == 1 :
+    print("reached the first condition")
+elif 6 == 7 or 2 == 3:
+    print("reached second condition")
+elif 9 != 10:
+    print("reached third condition")
+else:
+    print("Reached else")
+
+
+# lists
+# a list can hold any type, and can grow or shrink at any time
+
+#index: 0  1   2   3   4
+nums =[34, 52, 3, 64, 32]
+
+print(nums)
+print(nums[3]) #predict
+print(nums[0])
+print(nums[-1])
+print(nums[-3])
+print(nums[0] + nums[2])
+
+nums[0] = 64
+print(nums)
+
+# list methods
+# special built-in methods
+words =[]
+
+words.append("Word 1")
+words.append("Word 2")
+words.append("Word 3")
+print(words)
+
+words.remove("Word 1")
+words.insert(0, "Word 4")
+words[1] = "Word 5"
+length = len(words)
+print(words)
+print(length)
