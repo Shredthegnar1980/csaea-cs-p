@@ -11,3 +11,10 @@ print(True + True + True)
 print(0.1 + 0.2 == 0.3)
 print("Zebra" < "apple")
 print(not f or t and f)
+print(nums[-len(nums)])
+for i in range(10,0,-3):
+    print(i)
+x=5
+while x <10:
+    x += 2
+    print(x)
