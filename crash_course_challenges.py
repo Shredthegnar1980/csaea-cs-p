@@ -15,3 +15,7 @@ else:
 # question 5
 password = 12345
 attempt = 12345
+if password == attempt:
+    print("access granted")
+else:
+    print("access denied")
