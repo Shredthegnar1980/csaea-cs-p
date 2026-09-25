@@ -31,5 +31,17 @@ else:
     print("cannot ride")
 
 # question 11
+start = 10
+while start > 0:
+    print(start)
+    start -= 1
+if start == 0:
+    print("liftoff!")
 
+# question 19
+year = 1905
+if year // 4 and start % 4 ==0:
+    print("is leap year")
+else:
+    print("is not leap year")
 
