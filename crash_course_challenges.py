@@ -22,10 +22,10 @@ else:
 
 # question 7
 height = 48
-age = 11
-has_adult = True
+age = 9
+has_adult = False
 
-if height >= 48 and age >= 10 and has_adult == True:
+if height >= 48 and age >= 10 or has_adult == True:
     print("can ride")
 else:
     print("cannot ride")
@@ -39,8 +39,8 @@ if start == 0:
     print("liftoff!")
 
 # question 19
-year = 1905
-if year // 4 and start % 4 ==0:
+year = 2024
+if year % 4 ==0:
     print("is leap year")
 else:
     print("is not leap year")
