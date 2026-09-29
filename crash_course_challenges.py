@@ -25,7 +25,7 @@ height = 48
 age = 11
 has_adult = True
 
-if height >= 48 and age >= 10 and has_adult == True == True:
+if height >= 48 and age >= 10 and has_adult == True:
     print("can ride")
 else:
     print("cannot ride")
