@@ -51,9 +51,9 @@ print(count_up)
 
 num = 4
 word = "hello"
-temp = 0
-num = temp
+temp = 1
+temp = num
 num = word
-temp = word
+word = temp
 print(num)
 print(word)
