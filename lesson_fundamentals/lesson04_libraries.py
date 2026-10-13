@@ -41,3 +41,43 @@ seed_3 = seed_2 * 53.18
 seed_4 = seed_3 % 10
 seed_5 = math.ceil(seed_4)
 print("seed is now:", seed_5)
+
+#Pythons random library
+
+import random
+
+random_integer = random.randint(1,100)
+print(random_integer)
+
+random_float = random.random()
+print(random_float)
+
+my_list = ["taco", "burger", "pizza", "cake"]
+
+random_selection = random.choice(my_list)
+print(random_selection)
+
+random.shuffle(my_list)
+print(my_list)
+
+
+#challenge 2: simulation of die rolling
+
+die_roll_outcomes= [1,2,3,4,5,6]
+die_roll = random.choice(die_roll_outcomes)
+print(f"the outcome of the roll is {die_roll}")
+
+#challenge 3: random square root
+number = random.randint(1,75)
+square_root = math.sqrt(number)
+rounded_integer = math.ceil(square_root)
+print(f" the integer is {rounded_integer}")
+
+# challenge 4: power roll
+base = [1,2,3,4,5,6]
+exponent = [1,2,3,4,5,6]
+base2 = random.choice(base)
+exponent2 = random.choice(exponent)
+answer = math.pow(base2,exponent2)
+answer2 = int(answer)
+print(f"the base is {base2}\nthe power is {exponent2}\nthe answer is {answer2}")
