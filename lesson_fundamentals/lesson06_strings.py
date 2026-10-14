@@ -46,4 +46,4 @@ print("\nlength of string:", length)
 #challenge 3: name formatter
 firstname= input("first name is: ")
 lastname= input("last name is: ")
-print(f"last name is {lastname}, and first name is {firstname}")
+print(f"the last name is {lastname}, and the first name is {firstname}")
