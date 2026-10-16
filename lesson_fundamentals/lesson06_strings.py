@@ -44,6 +44,42 @@ print("\nlength of string:", length)
 # print("the 2nd through 6th letters of the word are", word1[2:7])
 
 #challenge 3: name formatter
-firstname= input("first name is: ")
-lastname= input("last name is: ")
-print(f"the last name is {lastname}, and the first name is {firstname}")
+# firstname= input("first name is: ")
+# lastname= input("last name is: ")
+# print(f"the last name is {lastname}, and the first name is {firstname}")
+
+character = "DarTh vAdeR"
+print("\nLowercase:", character.lower())
+print("uppercase:", character.upper())
+print("capitalize first letter:", character.capitalize())
+print("title format:", character.title())
+
+print()
+
+#find and replace text
+sentence = "turtles are so cool"
+new_sentence = sentence.replace("are", "were")
+print(sentence)
+print(new_sentence)
+
+#join and split
+groceries = "milk,eggs,bread,butter,peanuts"
+print("\noriginal string", groceries)
+
+#split string into python list, based on a delimiter
+items = groceries.split(",")
+print(items)
+
+#join a python list back together to a string
+joined = " and ".join(items)
+print(joined)
+print(type(items))
+print(type(joined))
+
+#challenge 4: word mutation
+#print a word backwards, in uppercase, and lowercase
+
+challenge_word = "Potato"
+print("lowercase:", challenge_word.lower())
+print("uppercase:", challenge_word.upper())
+print("word reversed:", challenge_word[::-1])
